@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Org Chart</title>
+        <link href="jquery.orgchart.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <ul id="org">
+            <li> Level 1
+                <ul>
+
+                    <li>Level 2</li>
+                </ul>
+                    <li>Level 3</li>
+                    <li>Level 3</li>
+                    <li>Level 3</li>
+                    <li>Level 3</li>
+                    <li>Level 3</li>
+            </ul>
+            <li>Level 2</li>
+            <li>Level 2</li>
+            <ul>
+                <li>Level 3</li>
+                <ul>
+                    <li>Level 4</li>
+                    <ul>
+                        <li>Level 5</li>
+                        <ul>
+                            <li>Level6</li>
+
+                        </ul>
+                    </ul>
+
+                </ul>
+
+            </ul>
+
+            </li>
+        </ul>
+        <script src="jquery.min.js"></script>
+        <script src="jquery.orgchart.min.js"></script>
+        <script>
+            $(function(){
+                $('#org').orgChart();
+            })
+        </script>
+        </body>>
+</html>
